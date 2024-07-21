@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   /* border: 1px solid red; */
+  overflow-x: hidden;
 }
 header {
   position: sticky;
@@ -112,9 +113,95 @@ nav {
   height: 400px;
   width: 300px;
   object-fit: contain;
+  margin-right: 10px;
 }
 
-.product > h1 {
-  margin: 5vmax;
+.headingproduct {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+
+  border-bottom: 5px solid chocolate;
+  width: 200px;
+}
+
+#product {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#product > h4,
+h5 {
+  border: 2px solid black;
+  display: flex;
+  width: 17%;
+  align-items: center;
+  justify-content: center;
+}
+.prod > img {
+  border: 2px solid black;
+  height: 20vmax;
+  display: flex;
+}
+.prod {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionall {
+  display: flex;
+  /* margin: 15px 10px; */
+  padding: 25px 10px;
+  background-color: rgb(34, 33, 33);
+  color: white;
+}
+
+.divB {
+  width: 60vmax;
+}
+
+.sectionall .divC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vmax;
+  gap: 15px;
+}
+.sectionall .divA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vmax;
+}
+.sectionall .divA img {
+  height: 120px;
+}
+.sectionall .divA h6 {
   text-align: center;
+  font-size: 20px;
+}
+.sectionall .divB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sectionall .divB h1 {
+  font-size: 70px;
+  padding: 15px 0;
+}
+.sectionall .divB h3 {
+  font-size: 15px !important;
+  padding: 10px 0;
 }
