@@ -3,16 +3,22 @@
   padding: 0;
   /* border: 1px solid red; */
 }
+header {
+  position: sticky;
+  top: 0%;
+}
 nav {
   display: flex;
-  border-bottom: 2px solid green;
-  border-top: 2px solid green;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  border-top: 2px solid rgb(0, 0, 0);
 }
 
 .left {
   width: 20%;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 900;
   font-size: 20px;
@@ -56,4 +62,59 @@ nav {
 }
 .right > img {
   color: blueviolet;
+}
+
+.home {
+  background-color: 2px solid black;
+  height: 76vh;
+  display: flex;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(189, 203, 191),
+    rgb(173, 196, 194)
+  );
+}
+#leftcontainer {
+  width: 50%;
+}
+#leftcontainer > h1 {
+  font-size: 60px;
+}
+#leftcontainer > h2 {
+  font-size: 40px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#leftcontainer > h3 {
+  font-style: italic;
+  font-size: 20px;
+  padding: 20px;
+}
+#leftcontainer > button {
+  width: 500px;
+  display: block;
+  margin: auto;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5%;
+  border-radius: 10px;
+  background-color: chocolate;
+}
+#leftcontainer > button:hover {
+  background-color: burlywood;
+}
+
+#rightcontainer {
+  width: 50%;
+}
+#rightcontainer > img {
+  height: 400px;
+  width: 300px;
+  object-fit: contain;
+}
+
+.product > h1 {
+  margin: 5vmax;
+  text-align: center;
 }
