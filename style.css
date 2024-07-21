@@ -1,4 +1,49 @@
 * {
   margin: 0;
   padding: 0;
+  border: 1px solid red;
+}
+nav {
+  display: flex;
+}
+
+.left {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 20px;
+}
+.left:hover {
+  color: blueviolet;
+}
+.mid {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+}
+.mid > a {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.mid > a:hover {
+  color: blueviolet;
+}
+
+.right {
+  width: 20%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+.right:hover {
+  color: blueviolet;
 }
